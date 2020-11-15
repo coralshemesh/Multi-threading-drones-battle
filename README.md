@@ -1,0 +1,3 @@
+# Multi-threading-drones-battle
+
+We have a 100x100 game board, on which a group of N drones hunt the same target from different points of view and from different distances. Each drone tries to detect where is the target on the game board, in order to destroy it. Drones may destroy the target only if the target is no more than some given distance from the drone. When the current target is destroyed, some new target appears on the game board in some randomly chosen place. Every R rounds the drone with the lowest number of destroyed targets  is "eliminated", the last drone left in the game is the winner of the game.
